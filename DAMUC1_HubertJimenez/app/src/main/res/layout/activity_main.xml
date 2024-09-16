@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0C568"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="226dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText7" />
+
+    <EditText
+        android:id="@+id/editTextText9"
+        android:layout_width="226dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText8" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="226dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="229dp"
+        android:layout_height="26dp"
+        android:background="#F2F8F8"
+        android:text="Crear cuenta de correo electronico"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        android:text="Nombres:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        android:text="Apellidos:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        android:text="Contraseña:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        android:text="confirmar contraseña:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="80dp"
+        android:text="Confirmar"
+        app:backgroundTint="#4573E9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText9" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="226dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="text"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="226dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        android:text="Correo electronico"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="99dp"
+        android:layout_height="78dp"
+        app:srcCompat="@drawable/imagenuntels" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
